@@ -25,3 +25,31 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+### Notes
+
+#### File Structure
+
+|-- e2e/
+|-- src/
+    |-- app
+        |-- components
+        |-- directives
+        |-- mocks
+        |-- modules
+            |-- general   (contains the elements found in all project types)
+                |-- not-found
+                |-- home
+                |-- contact
+                |-- login
+                |-- signin
+            |-- application  (contains the specific elements to our project)
+                |-- item01
+                |-- item02
+                |-- ....
+                |-- itemXX
+        |-- pipes
+        |-- services
+    |-- assets
+    |-- environment
+

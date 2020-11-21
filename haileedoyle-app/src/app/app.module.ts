@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './modules/general/home/home.component';
+import { ContactComponent } from './modules/general/contact/contact.component';
+import { WorkComponent } from './modules/general/work/work.component';
+import { NotFoundComponent } from './modules/general/not-found/not-found.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    ContactComponent,
+    WorkComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+
+h1 {
+  color: white;
+}
+
+.app {
+  font-family: 'Hind', sans-serif;
+  max-width: 500px;
+  margin: auto;
+}
