@@ -1,4 +1,8 @@
 /* global styles */
+* {
+  font-family: 'Hind', sans-serif;
+}
+
 body {
   color: black;
   font-weight: 400;
